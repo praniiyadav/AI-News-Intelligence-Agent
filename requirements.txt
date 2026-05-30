@@ -1,0 +1,8 @@
+streamlit
+pandas
+matplotlib
+requests
+python-dotenv
+textblob
+google-generativeai
+newsapi-python

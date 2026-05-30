@@ -1,0 +1,411 @@
+/* ===================================
+BACKGROUND
+=================================== */
+
+.stApp {
+
+    background:
+        radial-gradient(circle at top,
+            #111827 0%,
+            #020617 50%,
+            #000000 100%);
+
+    color: white;
+}
+
+/* ===================================
+REMOVE STREAMLIT DEFAULT
+=================================== */
+
+#MainMenu,
+footer,
+header {
+
+    visibility: hidden;
+}
+
+/* ===================================
+PAGE WIDTH
+=================================== */
+
+.block-container {
+
+    max-width: 1450px;
+
+    padding-top: 1.5rem;
+
+    padding-left: 4rem;
+
+    padding-right: 4rem;
+
+    padding-bottom: 4rem;
+}
+
+/* ===================================
+TITLE
+=================================== */
+
+.hero-title {
+
+    text-align: center;
+
+    font-size: 68px;
+
+    font-weight: 900;
+
+    line-height: 1.15;
+
+    color: white;
+
+    margin-bottom: 18px;
+
+    letter-spacing: -2px;
+}
+
+/* ===================================
+SUBTITLE
+=================================== */
+
+.hero-subtitle {
+
+    text-align: center;
+
+    font-size: 20px;
+
+    color: #94a3b8;
+
+    margin-bottom: 45px;
+
+    line-height: 1.8;
+}
+
+/* ===================================
+INFO ALERT
+=================================== */
+
+.stAlert {
+
+    border-radius: 18px;
+
+    background: rgba(15, 23, 42, 0.88);
+
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* ===================================
+LABELS
+=================================== */
+
+label {
+
+    font-size: 15px !important;
+
+    font-weight: 600 !important;
+
+    color: #e2e8f0 !important;
+
+    margin-bottom: 8px !important;
+}
+
+/* ===================================
+INPUTS
+=================================== */
+
+.stTextInput>div>div {
+
+    display: flex;
+
+    align-items: center;
+}
+
+.stTextInput>div>div>input {
+
+    background: rgba(15, 23, 42, 0.92);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    color: white;
+
+    border-radius: 16px;
+
+    height: 58px;
+
+    font-size: 17px;
+
+    padding-top: 0px !important;
+
+    padding-bottom: 0px !important;
+
+    padding-left: 20px;
+
+    line-height: normal !important;
+
+    transition: 0.3s;
+
+    display: flex;
+
+    align-items: center;
+
+    box-shadow:
+        0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+/* ===================================
+PLACEHOLDER
+=================================== */
+
+.stTextInput input::placeholder {
+
+    color: #94a3b8;
+
+    opacity: 1;
+
+    font-size: 16px;
+}
+
+/* ===================================
+INPUT FOCUS
+=================================== */
+
+.stTextInput>div>div>input:focus {
+
+    border: 1px solid #3b82f6 !important;
+
+    box-shadow:
+        0 0 0 4px rgba(59, 130, 246, 0.15);
+}
+
+/* ===================================
+BUTTON
+=================================== */
+
+.stButton {
+
+    margin-top: 12px;
+}
+
+.stButton>button {
+
+    width: 250px;
+
+    height: 58px;
+
+    border-radius: 16px;
+
+    border: none;
+
+    font-size: 17px;
+
+    font-weight: 700;
+
+    color: white;
+
+    background:
+        linear-gradient(135deg,
+            #2563eb,
+            #7c3aed);
+
+    box-shadow:
+        0 15px 35px rgba(37, 99, 235, 0.35);
+
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 20px 45px rgba(124, 58, 237, 0.45);
+}
+
+/* ===================================
+SECTION TITLE
+=================================== */
+
+.section-title {
+
+    font-size: 36px;
+
+    font-weight: 800;
+
+    color: white;
+
+    margin-top: 20px;
+
+    margin-bottom: 25px;
+}
+
+/* ===================================
+NEWS CARD
+=================================== */
+
+.news-card {
+
+    background:
+        linear-gradient(180deg,
+            rgba(15, 23, 42, 0.95),
+            rgba(15, 23, 42, 0.82));
+
+    border-radius: 24px;
+
+    padding: 30px;
+
+    margin-bottom: 25px;
+
+    border: 1px solid rgba(255, 255, 255, 0.06);
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.28);
+
+    transition: 0.3s;
+}
+
+.news-card:hover {
+
+    transform: translateY(-4px);
+
+    border: 1px solid rgba(59, 130, 246, 0.22);
+}
+
+/* ===================================
+NEWS TITLE
+=================================== */
+
+.news-title {
+
+    font-size: 30px;
+
+    font-weight: 800;
+
+    line-height: 1.45;
+
+    margin-bottom: 18px;
+
+    color: white;
+}
+
+/* ===================================
+TAGS
+=================================== */
+
+.sentiment-tag {
+
+    display: inline-block;
+
+    background: rgba(59, 130, 246, 0.14);
+
+    color: #38bdf8;
+
+    padding: 9px 16px;
+
+    border-radius: 999px;
+
+    margin-right: 10px;
+
+    font-weight: 700;
+
+    margin-bottom: 18px;
+}
+
+.category-tag {
+
+    display: inline-block;
+
+    background: rgba(168, 85, 247, 0.14);
+
+    color: #c084fc;
+
+    padding: 9px 16px;
+
+    border-radius: 999px;
+
+    font-weight: 700;
+
+    margin-bottom: 18px;
+}
+
+/* ===================================
+DESCRIPTION
+=================================== */
+
+.news-description {
+
+    color: #cbd5e1;
+
+    line-height: 1.9;
+
+    font-size: 17px;
+}
+
+/* ===================================
+ANALYTICS CARD
+=================================== */
+
+.analytics-card {
+
+    background:
+        linear-gradient(180deg,
+            rgba(15, 23, 42, 0.94),
+            rgba(15, 23, 42, 0.82));
+
+    border-radius: 24px;
+
+    padding: 30px;
+
+    margin-top: 35px;
+
+    margin-bottom: 35px;
+
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* ===================================
+SUMMARY CARD
+=================================== */
+
+.summary-card {
+
+    background:
+        linear-gradient(180deg,
+            rgba(15, 23, 42, 0.94),
+            rgba(15, 23, 42, 0.82));
+
+    border-radius: 24px;
+
+    padding: 35px;
+
+    margin-top: 35px;
+
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* ===================================
+SUCCESS BOX
+=================================== */
+
+.stSuccess {
+
+    border-radius: 16px;
+}
+
+/* ===================================
+SCROLLBAR
+=================================== */
+
+::-webkit-scrollbar {
+
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+
+    background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #334155;
+
+    border-radius: 999px;
+}
