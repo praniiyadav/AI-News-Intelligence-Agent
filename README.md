@@ -93,44 +93,6 @@ AI-News-Intelligence-Agent/
 
 ---
 
-# 📷 Project Screenshots
-
-## 🏠 Home Page
-
-<img width="100%" alt="Home Page" src="screenshots/home_page.jpeg">
-
----
-
-## 📰 News Dashboard
-
-<img width="100%" alt="News Dashboard" src="screenshots/home_page1.jpeg">
-
----
-
-## 📊 Analytics Dashboard
-
-<img width="100%" alt="Analytics Dashboard" src="screenshots/dashboards.jpeg">
-
----
-
-## 🧠 AI Generated Summary
-
-<img width="100%" alt="AI Summary" src="screenshots/summary.jpeg">
-
----
-
-## 💬 AI News Chatbot
-
-<img width="100%" alt="AI Chatbot" src="screenshots/chatbot.jpeg">
-
----
-
-## 📧 Email Delivery Output
-
-<img width="100%" alt="Email Output" src="screenshots/email_output.jpeg">
-
----
-
 # ⚙️ Installation & Setup
 
 ## Clone Repository
